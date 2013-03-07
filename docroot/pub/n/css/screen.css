@@ -1,0 +1,79 @@
+@font-face {
+	font-family: "font1";
+	src: url("../fonts/font1.ttf");
+}
+
+/**
+ * Super generic website
+ */
+html,body,h1,h2,h3,h4,h5,h6,p,ul,ol,li {
+	margin: 0; padding: 0; line-height: 1;
+	font-family: "font1", sans-serif;
+}
+body {
+	padding-bottom: 100px;
+}
+article, header, footer, section {
+	width: 1024px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: rgba(255,255,255,.75);
+	/* box-shadow: 0 0 5px rgba(0,0,0,.5); */
+	border-left: 5px solid #ccc;
+	border-right: 5px solid #aaa;
+}
+header {
+	position: relative;
+}
+header .logo {
+	position: absolute;
+	background: #fa0 url('../images/ui/logo.png') top left no-repeat;
+	display: block;
+	height: 100px;
+	width: 100px;
+	right: 20px;
+	top: 0;
+	overflow: hidden;
+	text-indent: -100000px;
+}
+h1 {
+	font-size: 3em;
+	text-shadow: 0 0 4px #ffffff;
+}
+h2 {
+	font-size: 2em;
+	text-shadow: 0 0 4px #ffffff;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.clear {
+	clear: both;	
+}
+.left_image {
+	float: left;
+	margin: 10px 10px 10px 0;
+}
+.right_image {
+	float: right;
+	margin: 10px 0 10px 10px;
+}
+.footer_wrap {
+	position: fixed; bottom: 0; width: 100%;
+}
+footer {
+	position: relative;
+	min-height: 60px;
+}
+.bg_1 {
+	background: #ffa url('../images/backgrounds/background1.gif') top left repeat;
+}
+.bg_2 {
+	background: #aff url('../images/backgrounds/background2.gif') top left repeat;
+}
+.bg_3 {
+	background: #faf url('../images/backgrounds/background3.gif') top left repeat;
+}
