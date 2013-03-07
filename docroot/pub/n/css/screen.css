@@ -25,6 +25,9 @@ article, header, footer, section {
 header {
 	position: relative;
 }
+header h1 {
+	color: #000000;	
+}
 header .logo {
 	position: absolute;
 	background: #fa0 url('../images/ui/logo.png') top left no-repeat;
@@ -69,11 +72,11 @@ footer {
 	min-height: 60px;
 }
 .bg_1 {
-	background: #ffa url('../images/backgrounds/background1.gif') top left repeat;
+	background: #ffffaa url('../images/backgrounds/background1.gif') top left repeat;
 }
 .bg_2 {
-	background: #aff url('../images/backgrounds/background2.gif') top left repeat;
+	background: #aaffff url('../images/backgrounds/background2.gif') top left repeat;
 }
 .bg_3 {
-	background: #faf url('../images/backgrounds/background3.gif') top left repeat;
+	background: #ffaaff url('../images/backgrounds/background3.gif') top left repeat;
 }
