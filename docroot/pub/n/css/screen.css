@@ -30,10 +30,10 @@ header h1 {
 }
 header .logo {
 	position: absolute;
-	background: #fa0 url('../images/ui/logo.png') top left no-repeat;
+	background: transparent url('../images/ui/logo.png') top left no-repeat;
 	display: block;
-	height: 100px;
-	width: 100px;
+	height: 128px;
+	width: 128px;
 	right: 20px;
 	top: 0;
 	overflow: hidden;
